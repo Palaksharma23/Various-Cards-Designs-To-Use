@@ -1,0 +1,117 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+ body {
+     display: flex;
+     flex-wrap: wrap;   
+ }
+ 
+ .col-3 {
+     display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+     flex-shrink: 1;
+     background-color: rgb(250, 246, 16);
+     width: 100%;
+     margin-top: 5%;
+ }
+.cover {
+    background-color: grey;
+    width: 18rem;
+    
+    margin: 5%;
+    display: block;
+}
+.shadow {
+    box-shadow: 10px 1px 20px 1px rgb(19, 1, 1);
+}
+.cover img {
+    width: 18rem;
+    height: 12rem;
+}
+.medium img{
+    width: 18rem;
+    height: 24rem;
+}
+.large img {
+    width: 18rem;
+    height: 18rem;
+}
+.title {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    text-align: center;
+    font-size: 5vw;
+    font-weight: bolder;
+}
+decription {
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.description .button {
+    text-align: center;
+}
+.description .button button {
+    padding: 4%;
+    border-radius: 14px;
+    margin-bottom: 5%;
+}
+.rounded {
+    border-radius: 10px;
+}
+.rounded .image img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.both-shadow {
+    
+        box-shadow: 10px 1px 20px 1px rgb(19, 1, 1),
+                    inset 10px 1px 20px 1px rgb(19, 1, 1);
+                
+    
+}
+.inset-shadow {
+    
+        box-shadow: inset 10px 1px 20px 1px rgb(19, 1, 1);
+    
+}
+.block-side {
+    background-color: grey;
+    margin: 5%;
+    display: block;
+}
+.cover-side {
+display: flex;
+flex-direction: row;
+flex-wrap: nowrap;
+
+}
+.cover-side .image-side img {
+    height: 6rem;
+    width:  6rem;
+    position: relative;
+    top: 15%;
+    margin: 10%;
+}
+.cover-side .text {
+    margin-left: 10%;
+}
+.circle {
+    border-radius: 50%;
+}
+.atag {
+    font-size: 2vw;
+    background: none;
+    position: relative;
+    left: -1%;
+    letter-spacing: normal;
+}
+p {
+    font-size: 3vw;
+    color: rgb(255, 0, 0);
+}
+.date {
+    font-size: 3vw;
+    color: rgb(255, 0, 0);
+}
